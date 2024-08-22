@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!-- Khai bao dinh nghia loai tai lieu la html, la phan lam dau tien khi tao ra file -->
+<html>  <!-- Thẻ (tag) mở html -->
+    <head>  
+        <title>Hboyss</title> <!-- Định nghĩa tiêu đề -->
+        <meta charset="utf-8"> <!-- Hỗ trợ tiếng việt -->
+
+    </head>
+
+    <body>
+       <!-- Danh mục sẽ học 8/8/2024
+                1.h1 -> h6  
+                    a. Attibute (nằm trong thẻ mở) title, style, onclick 
+                2. input
+                3.p
+                4.img 
+                    Attribute src
+                5.a
+                    Attribute href
+                6.ul, ui
+                7.table
+                8.input            
+                9.div 
+            Danh mục sẽ học 15/8/2024
+                1. div
+                2. span
+                3. lable
+                4. style attribute color, text-align
+                5. img attribute width
+                6. ol
+                7. select / option
+                8. button attribute onclick
+                9. form cho thẻ lấy thông tin người dùng
+                10. footer để hiểu rõ đây là phần cuối
+                        -->
+
+       <div> <!--Tạo ra 1 khối để bao quanh nội dung để nằm riêng lẻ   <> span--> 
+            <h1 title="Đây là tiêu đề"> Hello </h1> <!--heading (Tạo tiêu đề)-->
+                <!-- Thường chỉ có 1 thẻ h1 duy nhất trong html  -->
+                <!-- Thuộc tính title của thẻ html (nằm trong thẻ mở) được gọi là attribute-->
+                <!-- title tạo chú thích -->
+        
+            <p style="color:red;text-align: center;"> 
+                Xin chào các bạn <br/> <!--Xuống dòng-->
+                Chào cc
+            </p> <!--paragraph (Những dòng chữ)-->
+            
+            <img width="50" src="https://inkythuatso.com/uploads/thumbnails/800/2021/12/logo-dai-hoc-da-lat-inkythuatso-01-21-08-49-43.jpg" alt="Ảnh DLU"> 
+            <!-- src="link"                                                                                                      alt ghi chú khi ảnh bị lỗi (Không bắt buộc )-->
+            <p> 
+            
+            
+            </p>
+            
+        <!--(anchor)neo liên kết  để có thể truy cập vào trang khác-->                                                     
+            <a href="https://dlu.edu.vn/">Tới trường DLU</a> 
+        <!--<a href="link"               > Văn bản để gắn với link</a>-->
+
+
+            <!-- ol ordered list để đánh số -->
+            <ul> <!--unordered list (danh sách tùy ý sắp xếp được thư tự)-->
+                 <!-- li*4-->    
+                 <li>2212366</li> <!--list item (danh sách chứa nhiều phần tử)-->
+                 <li>Bùi Trung Hiếu</li>
+                 <li>CTK46A</li>
+                 <li>Hboy: <a href="https://github.com/Hboyss7/2212366_Ch-ng1_TongQuanVeLapTrinhGiaoDien_1..git">github</a></li>
+            </ul> <!--li ko bắt buộc trong ul-->
+
+                
+        
+            <table> <!--table gồm 2 phần head và body-->
+            
+                 <thead> <!--Table head (tiêu đề)-->
+                 <!-- th*4 table heading -->
+                     <TH>STT</TH>
+                     <TH>Họ tên</TH>
+                     <TH>Lớp</TH>
+                     <TH>Địa chỉ</TH>
+                
+                 </thead>
+             
+                 <tbody> <!--table body-->
+                     <tr><!--table row, Dòng 1--> 
+                         <td>1</td> <!--Mỗi thẻ td tương ứng với thẻ th-->
+                         <td>Bùi Trung Hiếu</td>
+                         <td>CTK46A</td>
+                         <td>Việt Nam</td>
+                     </tr>  
+                     
+                     <tr> 
+                         <td>2</td> 
+                         <td>Trần Minh Hiếu</td>
+                         <td>CTK46B</td>
+                         <td>Đức Trọng</td>
+                     </tr> 
+                 
+                 </tbody>
+
+            </table>
+            
+
+        <!--<input type="text"> (Mặc định sinh ra ô có dạng type text để nhập văn bản)-->
+            <label>Nhập gì đó đi ku</label> <!--Thường đi với input-->
+            <input type="text" placeholder="Tên mày là">
+                          <!-- chú thích    -->
+        <div>
+            <!--<input type="checkbox"> (Tạo ra dấu tích) -->
+            <input name="Hboy" type="checkbox"> <!--attribute name-->
+            <input name="Hboy" type="checkbox"> 
+            <input type="checkbox"> 
+       
+            <!--<input type="radio"> (Tạo ra chấm tròn) -->
+            <input name="Hboy" type="radio"> 
+            <input name="Hboy" type="radio">
+            <input name="Hboy" type="radio">
+             <!-- Đặt trùng tên để giống chức năng của radio (chỉ có thể chọn 1 cái) 
+                nếu không sẽ được chọn nhiều, việc đặt tên trùng cho checkbox k tác dụng-->
+        </div>
+        
+            <div> <!--Cách dòng-->
+            <label >Giới tính</label>
+            <select>
+                <option>Nam</option>
+                <option>Nữ</option>
+            </select>
+        </div>
+            <!-- <button>   Tạo nút    </button>     -->
+            <button onclick="NhapThanhVien()"> Hello </button>
+
+            <!-- Gắn link các kiểu   -->
+            <button ><a href="https://lms.dlu.edu.vn/course/view.php?id=11064">Thêm thành viên</a></button>
+
+        </div>
+        
+        <!-- <script>
+            function NhapThanhVien()
+            {
+                document.getElementById("demo").innerHTML = "Xin chào";
+            }
+
+        </script> -->
+
+    </body>
+
+</html> <!-- Thẻ đóng -->
