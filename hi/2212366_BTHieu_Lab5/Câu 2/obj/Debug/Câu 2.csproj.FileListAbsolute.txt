@@ -1,0 +1,12 @@
+D:\2212366_BTHieu_Lab5\Câu 2\bin\Debug\Câu 2.exe.config
+D:\2212366_BTHieu_Lab5\Câu 2\bin\Debug\Câu 2.exe
+D:\2212366_BTHieu_Lab5\Câu 2\bin\Debug\Câu 2.pdb
+D:\2212366_BTHieu_Lab5\Câu 2\obj\Debug\Câu 2.csproj.AssemblyReference.cache
+D:\2212366_BTHieu_Lab5\Câu 2\obj\Debug\Câu 2.csproj.CoreCompileInputs.cache
+D:\2212366_BTHieu_Lab5\Câu 2\obj\Debug\Câu 2.exe
+D:\2212366_BTHieu_Lab5\Câu 2\obj\Debug\Câu 2.pdb
+D:\2212366_BTHieu_Lab5\Câu 2\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\2212366_BTHieu_Lab5\Câu 2\bin\Debug\System.Memory.dll
+D:\2212366_BTHieu_Lab5\Câu 2\bin\Debug\System.Buffers.dll
+D:\2212366_BTHieu_Lab5\Câu 2\bin\Debug\System.Numerics.Vectors.dll
+D:\2212366_BTHieu_Lab5\Câu 2\obj\Debug\Câu 2.csproj.CopyComplete

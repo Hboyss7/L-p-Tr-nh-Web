@@ -1,0 +1,7 @@
+D:\2212366_BTHieu_Lab5\2212366_BTHieu_Lab5\obj\Debug\2212366_BTHieu_Lab5.csproj.AssemblyReference.cache
+D:\2212366_BTHieu_Lab5\2212366_BTHieu_Lab5\obj\Debug\2212366_BTHieu_Lab5.csproj.CoreCompileInputs.cache
+D:\2212366_BTHieu_Lab5\2212366_BTHieu_Lab5\bin\Debug\2212366_BTHieu_Lab5.exe.config
+D:\2212366_BTHieu_Lab5\2212366_BTHieu_Lab5\bin\Debug\2212366_BTHieu_Lab5.exe
+D:\2212366_BTHieu_Lab5\2212366_BTHieu_Lab5\bin\Debug\2212366_BTHieu_Lab5.pdb
+D:\2212366_BTHieu_Lab5\2212366_BTHieu_Lab5\obj\Debug\2212366_BTHieu_Lab5.exe
+D:\2212366_BTHieu_Lab5\2212366_BTHieu_Lab5\obj\Debug\2212366_BTHieu_Lab5.pdb
